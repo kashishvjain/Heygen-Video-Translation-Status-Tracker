@@ -1,1 +1,1 @@
-# Heygen-Video-Translation-Status-Tracker
+# Heygen Video Translation Status Tracker
