@@ -1,9 +1,6 @@
 name: Generate and Deploy Documentation
 
-on:
-    push:
-        branches: ["main"]
-    workflow_dispatch:
+on: [push, pull_request]
 
 permissions:
     contents: read
@@ -40,6 +37,9 @@ jobs:
                   path: docs/_build/html
 
     deploy:
+        environment:
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
         runs-on: ubuntu-latest
         needs: build-docs
         steps:
