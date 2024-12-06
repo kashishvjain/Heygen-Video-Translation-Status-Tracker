@@ -5,6 +5,7 @@ disable=
     C0115,  # Missing class docstring
     C0116,  # Missing function or method docstring
     R0903,  # Too few public methods
+    E0401,  # Unable to import
 
 [REPORTS]
 # Set the output format. Available formats are text, parseable, colorized, json and msvs (visual studio).
