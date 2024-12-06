@@ -1,0 +1,7 @@
+loader:
+    search_path: src
+modules:
+    - server
+render:
+    - type: markdown
+      output: docs/index.md

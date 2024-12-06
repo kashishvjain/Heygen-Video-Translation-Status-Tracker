@@ -1,4 +1,4 @@
-name: Lint Python Code
+name: Pylint Check
 
 on: [push, pull_request]
 
@@ -22,4 +22,4 @@ jobs:
 
             - name: Run pylint
               run: |
-                  pylint src/**/*.py
+                  pylint --rcfile=.pylintrc src/**/*.py
