@@ -12,7 +12,7 @@ class TranslationJob:
             completion_time (int): Seconds until job completes
             error_probability (float): Probability of job failing
         """
-        self.id = str(uuid.uuid4())
+        self.job_id = str(uuid.uuid4())
         self.started_at = time.time()
         self.completion_time = completion_time
         self.error_probability = error_probability

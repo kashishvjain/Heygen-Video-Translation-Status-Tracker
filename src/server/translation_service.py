@@ -21,8 +21,8 @@ class TranslationService:
             str: The ID of the created job
         """
         job = TranslationJob()
-        self.jobs[job.id] = job
-        return job.id
+        self.jobs[job.job_id] = job
+        return job.job_id
 
     def get_status(self, job_id):
         """
@@ -37,5 +37,4 @@ class TranslationService:
         job = self.jobs.get(job_id)
         if job:
             return job.get_status()
-        else:
-            return "Job ID not found"
+        return "Job ID not found"
