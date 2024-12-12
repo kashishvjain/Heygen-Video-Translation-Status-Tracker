@@ -61,7 +61,7 @@ To run the integration tests, use the following command:
 python -m pytest -v -s
 ```
 
-````
+
 
 Alternatively, you can use the provided batch script:
 
