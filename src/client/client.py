@@ -130,8 +130,7 @@ class VideoTranslationClient:
 
         Args:
             job_ids (List[str]): A list of job IDs to check.
-            concurrent_limit (Optional[int]): Maximum number of concurrent status checks.
-                If None, all job IDs are processed concurrently.
+            concurrent_limit (Optional[int]): Maximum number of concurrent status checks. If None, all job IDs are processed concurrently.
 
         Returns:
             Dict[str, TranslationResult]: A dictionary mapping job IDs to their translation results.

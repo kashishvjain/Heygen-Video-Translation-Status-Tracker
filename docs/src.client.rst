@@ -1,9 +1,6 @@
 src.client package
 ==================
 
-Submodules
-----------
-
 src.client.client module
 ------------------------
 

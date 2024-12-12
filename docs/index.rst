@@ -8,10 +8,10 @@ Heygen Video Translation Status Tracker Client Library documentation
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 5
    :caption: Contents:
 
-   src
+   modules
 
 
 Indices and tables

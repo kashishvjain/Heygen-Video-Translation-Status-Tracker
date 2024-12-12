@@ -1,13 +1,11 @@
 src package
 ===========
 
-Subpackages
------------
-
 .. toctree::
    :maxdepth: 4
 
    src.server
+   src.client
 
 Module contents
 ---------------

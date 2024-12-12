@@ -9,8 +9,6 @@ Subpackages
 
    src.server.api
 
-Submodules
-----------
 
 src.server.app module
 ---------------------

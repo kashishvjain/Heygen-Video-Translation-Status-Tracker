@@ -3,3 +3,4 @@ server.log
 translation.log
 client.log
 
+build/
