@@ -14,6 +14,7 @@ sys.path.insert(0, os.path.abspath(".."))
 project = "Heygen Video Translation Status Tracker Client Library"
 copyright = "2024, Kashish"
 author = "Kashish"
+release = "0.1.0"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
