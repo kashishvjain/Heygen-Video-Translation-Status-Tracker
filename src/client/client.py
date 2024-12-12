@@ -38,7 +38,7 @@ class VideoTranslationClient:
         Args:
             base_url (str): The base URL for the client.
             max_retries (int, optional): The maximum number of retries for requests. Defaults to 15.
-            initial_backoff (float, optional): The initial backoff time in seconds for retries. Defaults to 1.0.
+            initial_backoff (float, optional): The initial backoff time in seconds for retries. Defaults to 0.5.
             max_timeout (float, optional): The maximum timeout in seconds for requests. Defaults to 300.0.
         """
         self.base_url = base_url

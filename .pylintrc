@@ -7,6 +7,7 @@ disable=
     R0903,  # Too few public methods
     E0401,  # Unable to import
     E0611,  # No name in module
+    C0301,  # Line too long
 
 [REPORTS]
 # Set the output format. Available formats are text, parseable, colorized, json and msvs (visual studio).
