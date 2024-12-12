@@ -1,4 +1,4 @@
-![Github Actions](https://github.com/github/docs/actions/workflows/pylint.yml/badge.svg)
+![Github Actions](https://github.com/kashishvjain/Heygen-Video-Translation-Status-Tracker/actions/workflows/pylint.yml/badge.svg)
 ![Docs](https://img.shields.io/readthedocs/heygen-video-translation-status-tracker)
 
 # Heygen Video Translation Status Tracker Client Library
@@ -132,15 +132,3 @@ An integration test is provided to demonstrate the usage of the client library a
 
 The Heygen Video Translation Status Tracker Client Library provides a robust and efficient way to interact with a video translation backend server. By implementing features such as exponential backoff with jitter, capped maximum backoff time, total timeout limits, efficient use of `ClientSession`, bulk query support, and robust exception handling, the library ensures minimal delays and reduced server load while providing timely responses to users.
 
-```
-
-**Changes made:**
-
-* Added a **Topics** list at the top.
-* Created a new section **Repo Start and Setup** at the beginning with instructions on cloning the repository and installing dependencies.
-* Removed the **Installation** section under **Usage** as it was redundant.
-* Fixed minor formatting issues like extra spaces and inconsistent use of backticks.
-
-
-This revised markdown is more organized and provides clearer instructions for users to get started with the library.
-```
