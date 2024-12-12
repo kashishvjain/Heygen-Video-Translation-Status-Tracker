@@ -1,5 +1,17 @@
+import logging
+
+from api.create_job import CreateJobAPI
+from api.status import StatusAPI
 from flask import Flask
-from api import CreateJobAPI, StatusAPI
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler("server.log"),
+        logging.StreamHandler(),
+    ],
+)
 
 app = Flask(__name__)
 
