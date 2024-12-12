@@ -17,6 +17,7 @@
 The Heygen Video Translation Status Tracker Client Library is designed to interact with a video translation backend server to check the status of translation jobs. This library provides an efficient and user-friendly way to query the status of translation jobs, minimizing delays and server load. Some salient features:
 
 -   Start multiple client jobs and for the same server and query based on job id
+-   Client optimization with techniches like exponential back off and asynchronization
 -   Track important metrics such as information delay, number of requests and status
 -   Asynchronously query the server to get status of multiple jobs
 -   Integrated CI pipeline
@@ -73,9 +74,9 @@ This section provides instructions on how to get started with the Heygen Video T
 
 ## Features
 
-### 1.
+### 1. Extensive Documentation
 
-The client library includes functionality to report metrics such as the number of requests made, the delay between the actual completion and when the client get to know a task is complete, the average response time, and the success/failure rate of requests. These metrics can provide valuable insights into the performance and reliability of the client library and the backend server.
+The documentation is comprehensive, covering all aspects of the client library and server apis, including setup, usage, and optimization techniques. Each section provides detailed information and examples to help users understand and utilize the library effectively.
 
 ### 2. Asynchronous HTTP Requests
 
@@ -85,27 +86,27 @@ The client library uses asynchronous HTTP requests to interact with the server, 
 
 To avoid overwhelming the server with frequent requests, the client library implements an exponential backoff strategy with jitter. This technique involves waiting for progressively longer intervals between retries, with a random variation (jitter) added to prevent synchronization issues when multiple clients retry simultaneously.
 
-### 3. Capped Maximum Backoff Time
+### 4. Capped Maximum Backoff Time
 
 A cap is placed on the maximum backoff time to ensure that the delay between retries does not become excessively long. This balances the need to reduce server load with the need to provide timely responses.
 
-### 4. Total Timeout Limit
+### 5. Total Timeout Limit
 
 A total timeout limit (`max_timeout`) is set to abort the operation if it takes too long, preventing indefinite waiting periods.
 
-### 5. Efficient Use of `ClientSession`
+### 6. Efficient Use of `ClientSession`
 
 By reusing the same `ClientSession` for all HTTP requests within the method, the client reduces overhead and improves efficiency.
 
-### 6. Bulk Query Support
+### 7. Bulk Query Support
 
 The client library supports querying the status of multiple translation jobs concurrently. This feature allows users to check the status of multiple jobs in a single operation, improving efficiency and reducing the number of HTTP requests.
 
-### 7. Robust Exception Handling
+### 8. Robust Exception Handling
 
 Comprehensive exception handling is included to catch and log potential errors, allowing the client to retry or fail gracefully.
 
-### 8. Reporting Metrics
+### 9. Reporting Metrics
 
 The client library includes functionality to report metrics such as the number of requests made, the delay between the actual completion and when the client get to know a task is complete, the average response time, and the success/failure rate of requests. These metrics can provide valuable insights into the performance and reliability of the client library and the backend server. I ensure that the time for each job is reandom between 20-60 seconds to ensure a realistic environment.
 
