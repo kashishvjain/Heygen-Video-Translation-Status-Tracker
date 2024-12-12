@@ -56,7 +56,7 @@ This section provides instructions on how to get started with the Heygen Video T
     ```bash
     python -m pytest -v -s
     ```
-5. To just start the server 4. To run the integration tests:
+5. To just start the server:
     ```bash
     .\run_server.bat
     ```
