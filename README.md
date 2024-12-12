@@ -1,7 +1,6 @@
 ![Github Actions](https://github.com/kashishvjain/Heygen-Video-Translation-Status-Tracker/actions/workflows/pylint.yml/badge.svg)
 ![Github Actions](https://github.com/kashishvjain/Heygen-Video-Translation-Status-Tracker/actions/workflows/tests.yml/badge.svg)
-![Docs](https://heygen-video-translation-status-tracker.readthedocs.io/en/latest/#)
-
+[![Documentation Status](https://readthedocs.org/projects/heygen-video-translation-status-tracker/badge/?version=latest)](https://heygen-video-translation-status-tracker.readthedocs.io/en/latest/?badge=latest)
 # Heygen Video Translation Status Tracker Client Library
 
 ## Table of Contents
