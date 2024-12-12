@@ -68,4 +68,3 @@ Alternatively, you can use the provided batch script:
 ```bash
 .\run_tests.bat
 ```
-````
