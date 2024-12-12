@@ -1,3 +1,6 @@
+![Github Actions](https://github.com/github/docs/actions/workflows/pylint.yml/badge.svg)
+![Docs](https://img.shields.io/readthedocs/heygen-video-translation-status-tracker)
+
 # Heygen Video Translation Status Tracker Client Library
 
 ## Repo Start and Setup
@@ -6,23 +9,23 @@ This section provides instructions on how to get started with the Heygen Video T
 
 **Prerequisites:**
 
-* Python 3.7 or higher
-* `pip` package manager
+-   Python 3.7 or higher
+-   `pip` package manager
 
 **Installation:**
 
 1. Clone the repository:
-   ```bash
-   git clone <repository_url>
-   ```
+    ```bash
+    git clone <repository_url>
+    ```
 2. Navigate to the project directory:
-   ```bash
-   cd <project_directory>
-   ```
+    ```bash
+    cd <project_directory>
+    ```
 3. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ## Overview
 
@@ -89,7 +92,8 @@ The client library supports querying the status of multiple translation jobs con
 Comprehensive exception handling is included to catch and log potential errors, allowing the client to retry or fail gracefully.
 
 ### 8. Reporting Metrics
-- The client library includes functionality to report metrics such as the number of requests made, the delay between the actual completion and when the client get to know a task is complete, the average response time, and the success/failure rate of requests. These metrics can provide valuable insights into the performance and reliability of the client library and the backend server.
+
+-   The client library includes functionality to report metrics such as the number of requests made, the delay between the actual completion and when the client get to know a task is complete, the average response time, and the success/failure rate of requests. These metrics can provide valuable insights into the performance and reliability of the client library and the backend server.
 
 ## Usage
 
@@ -126,6 +130,7 @@ An integration test is provided to demonstrate the usage of the client library a
 ## Conclusion
 
 The Heygen Video Translation Status Tracker Client Library provides a robust and efficient way to interact with a video translation backend server. By implementing features such as exponential backoff with jitter, capped maximum backoff time, total timeout limits, efficient use of `ClientSession`, bulk query support, and robust exception handling, the library ensures minimal delays and reduced server load while providing timely responses to users.
+
 ```
 
 **Changes made:**
@@ -137,3 +142,4 @@ The Heygen Video Translation Status Tracker Client Library provides a robust and
 
 
 This revised markdown is more organized and provides clearer instructions for users to get started with the library.
+```
