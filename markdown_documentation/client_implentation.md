@@ -38,7 +38,6 @@ def __init__(
 ):
 ```
 
-````
 
 Initializes a new `VideoTranslationClient` instance.
 
@@ -109,4 +108,4 @@ The client library includes retry logic with exponential backoff to handle trans
 ## Logging
 
 The library uses the `logging` module to log events and errors. You can configure the logging level and output to suit your needs.
-````
+
