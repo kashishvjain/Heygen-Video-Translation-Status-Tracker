@@ -2,7 +2,7 @@
 
 Optimizing my server is crucial for ensuring that my application runs efficiently, handles high traffic, and provides a smooth user experience. One effective way I've found to optimize my server is by implementing caching. This document outlines how I use Flask-Caching to improve my server's performance.
 
-## Flask-Caching
+## Caching
 
 Caching is one of the most effective ways to improve server performance. By storing frequently accessed data in memory, I reduce the load on my server and speed up response times.
 
