@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Video Translation Client'
+project = 'Heygen Video Translation'
 copyright = '2024, Kashish'
 author = 'Kashish'
 
