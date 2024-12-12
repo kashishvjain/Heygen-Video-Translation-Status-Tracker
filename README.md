@@ -69,7 +69,7 @@ This section provides instructions on how to get started with the Heygen Video T
 
 2. [Server Optimizations](markdown_documentation/server_optimizations.md)
 
-## Documentations
+## Documentation
 
 1. [Server Documentation](markdown_documentation/server_implementation.md)
 
@@ -81,7 +81,9 @@ This section provides instructions on how to get started with the Heygen Video T
 
 ### 1. Extensive Documentation
 
-The documentation is comprehensive, covering all aspects of the client library and server apis, including setup, usage, and optimization techniques. Each section provides detailed information and examples to help users understand and utilize the library effectively.
+The documentation is comprehensive, covering all aspects of the client library and server apis, including setup, usage, and optimization techniques. Each section provides detailed information and examples to help users understand and utilize the library effectively. I also have generated from function docstrings which os hosted. 
+
+Link: https://heygen-video-translation-status-tracker.readthedocs.io/en/latest/#
 
 ### 2. Asynchronous HTTP Requests
 
