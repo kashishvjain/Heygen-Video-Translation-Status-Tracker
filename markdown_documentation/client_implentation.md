@@ -1,4 +1,4 @@
-# Video Translation Client Library Documentation
+# Client Library Documentation
 
 ## Introduction
 
