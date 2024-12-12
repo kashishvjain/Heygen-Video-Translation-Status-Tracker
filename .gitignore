@@ -1,1 +1,4 @@
 __pycache__/
+server.log
+translation.log
+client.log
