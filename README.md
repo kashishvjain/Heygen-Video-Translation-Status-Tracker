@@ -1,6 +1,5 @@
 ![Github Actions](https://github.com/kashishvjain/Heygen-Video-Translation-Status-Tracker/actions/workflows/pylint.yml/badge.svg)
 ![Github Actions](https://github.com/kashishvjain/Heygen-Video-Translation-Status-Tracker/actions/workflows/test.yml/badge.svg)
-![Github Actions](https://github.com/kashishvjain/Heygen-Video-Translation-Status-Tracker/actions/workflows/test.yml/black.svg)
 ![Docs](https://img.shields.io/readthedocs/heygen-video-translation-status-tracker)
 
 # Heygen Video Translation Status Tracker Client Library
@@ -66,13 +65,13 @@ This section provides instructions on how to get started with the Heygen Video T
 
 ## Documentation
 
-### 1. [Client Optimizations](markdown_documentation\client_optimizations.md)
+### 1. [Client Optimizations](markdown_documentation/client_optimizations.md)
 
-### 2. [Server Documentation](markdown_documentation\server_implementation.md)
+### 2. [Server Documentation](markdown_documentation/server_implementation.md)
 
-### 3. [Client Documentation](markdown_documentation\client_implementation.md)
+### 3. [Client Documentation](markdown_documentation/client_implementation.md)
 
-### 4. [Integration Test Documentation](markdown_documentation\integration_test_implementation.md)
+### 4. [Integration Test Documentation](markdown_documentation/integration_test_implementation.md)
 
 ## Features
 
