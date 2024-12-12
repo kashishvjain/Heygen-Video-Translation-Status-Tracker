@@ -11,7 +11,7 @@ Heygen Video Translation Status Tracker Client Library documentation
    :maxdepth: 2
    :caption: Contents:
 
-   modules
+   src
 
 
 Indices and tables
