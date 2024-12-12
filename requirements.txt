@@ -2,3 +2,4 @@ pytest-asyncio
 sphinx_rtd_theme
 flask
 aiohttp
+flask-caching

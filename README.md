@@ -8,10 +8,11 @@
 
 1. [Overview](#overview)
 2. [Repo Start and Setup](#repo-start-and-setup)
-3. [Documentation](#documentation)
-4. [Features](#features)
-5. [Usage](#usage)
-6. [Conclusion](#conclusion)
+3. [Optimizations](#optimizations)
+4. [Documentation](#documentation)
+5. [Features](#features)
+6. [Usage](#usage)
+7. [Conclusion](#conclusion)
 
 ## Overview
 
@@ -63,15 +64,19 @@ This section provides instructions on how to get started with the Heygen Video T
     OR
     Run the app file with flask in src/server
 
-## Documentation
+## Optimizations
 
-### 1. [Client Optimizations](markdown_documentation/client_optimizations.md)
+1. [Client Optimizations](markdown_documentation/client_optimizations.md)
 
-### 2. [Server Documentation](markdown_documentation/server_implementation.md)
+2. [Server Optimizations](markdown_documentation/server_optimizations.md)
 
-### 3. [Client Documentation](markdown_documentation/client_implementation.md)
+## Documentations
 
-### 4. [Integration Test Documentation](markdown_documentation/integration_test_implementation.md)
+1. [Server Documentation](markdown_documentation/server_implementation.md)
+
+2. [Client Documentation](markdown_documentation/client_implementation.md)
+
+3. [Integration Test Documentation](markdown_documentation/integration_test_implementation.md)
 
 ## Features
 

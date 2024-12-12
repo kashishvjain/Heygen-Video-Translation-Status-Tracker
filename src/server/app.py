@@ -2,6 +2,7 @@ import logging
 
 from api.create_job import CreateJobAPI
 from api.status import StatusAPI
+from cache import cache
 from flask import Flask
 
 logging.basicConfig(
@@ -14,6 +15,9 @@ logging.basicConfig(
 )
 
 app = Flask(__name__)
+
+# Initialize the cache with the Flask app
+cache.init_app(app)
 
 # Register the class-based views with the Flask app
 app.add_url_rule("/create_job", view_func=CreateJobAPI.as_view("create_job_api"))

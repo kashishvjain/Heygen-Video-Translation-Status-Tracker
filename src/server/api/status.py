@@ -1,9 +1,11 @@
+from api.create_job import server
+from cache import cache  # Import the cache object
 from flask import jsonify
 from flask.views import MethodView
-from api.create_job import server
 
 
 class StatusAPI(MethodView):
+    @cache.cached(timeout=10, query_string=True)
     def get(self, job_id):
         """
         Return the status of the translation job as a JSON object.
