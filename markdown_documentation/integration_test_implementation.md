@@ -1,4 +1,4 @@
-# Integration Tests
+# Integration Tests Documentation
 
 The integration tests for the Heygen Video Translation Status Tracker Client Library are designed to verify the functionality of the client library and its interaction with the server. These tests ensure that the client can create translation jobs, query their statuses, and handle multiple jobs concurrently.
 
