@@ -1,4 +1,4 @@
-# Optimizations in client.py to Reduce Delays Without Overloading the Server
+# Client Optimizations
 
 This document provides a detailed explanation of the optimizations made in the `client.py` code to minimize delays while avoiding excessive server calls. It also explains the usage of `ClientSession` in the `aiohttp` library.
 
