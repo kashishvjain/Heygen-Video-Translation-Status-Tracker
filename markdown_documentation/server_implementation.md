@@ -1,4 +1,3 @@
-````markdown
 # Server Documentation
 
 ## Introduction
@@ -57,7 +56,7 @@ The server exposes two primary API endpoints under the `src.server.api` package:
     "job_id": "a649581d-c511-4d0b-9ddc-0f74f61d2fe0"
 }
 ```
-````
+
 
 #### 2. `GET /status/<job_id>`
 
@@ -139,6 +138,3 @@ For more details, refer to the source code and documentation in the following fi
 -   `translation_job.py`
 -   `translation_service.py`
 
-```
-
-```
