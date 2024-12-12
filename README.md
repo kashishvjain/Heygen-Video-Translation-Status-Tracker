@@ -21,7 +21,7 @@ The Heygen Video Translation Status Tracker Client Library is designed to intera
 -   Client optimization with techniches like exponential back off and asynchronization
 -   Track important metrics such as information delay, number of requests and status
 -   Asynchronously query the server to get status of multiple jobs
--   Integrated CI pipeline
+-   Integrated CI pipeline with linting check, formatting check and tests running
 -   Documentation for all APIs and client side library hosted
 -   Logs generated and saved in client.log and server.log
 
