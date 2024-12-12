@@ -16,7 +16,7 @@ logging.basicConfig(
     ],
 )
 
-logger = logging.getLogger("client")
+logger = logging.getLogger("logger")
 
 
 @pytest.mark.asyncio
@@ -41,6 +41,7 @@ async def test_translation_status_single_job():
             TranslationStatus.PENDING,
             TranslationStatus.COMPLETED,
             TranslationStatus.ERROR,
+            TranslationStatus.TIMEOUT,
         ]
 
     finally:
@@ -68,7 +69,7 @@ async def test_translation_status_bulk_jobs():
         for _ in range(5):
             job_id = await client.create_translation_job()
             job_ids.append(job_id)
-        logger.info(f"Created {len(job_ids)} job IDs")
+        logger.info("Created %d job IDs", len(job_ids))
 
         # Check bulk job statuses
         results = await client.get_bulk_translation_statuses(job_ids)
@@ -85,6 +86,7 @@ async def test_translation_status_bulk_jobs():
                 TranslationStatus.PENDING,
                 TranslationStatus.COMPLETED,
                 TranslationStatus.ERROR,
+                TranslationStatus.TIMEOUT,
             ], f"Invalid status for job {job_id}"
 
         # Optional: Test with concurrent limit

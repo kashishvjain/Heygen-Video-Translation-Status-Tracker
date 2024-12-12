@@ -1,4 +1,3 @@
 @echo off
 REM Run the translation API server
-cd src/server
-python -m pytest
+python -m pytest -v -s

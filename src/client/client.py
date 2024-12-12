@@ -13,6 +13,7 @@ class TranslationStatus(Enum):
     PENDING = auto()
     COMPLETED = auto()
     ERROR = auto()
+    TIMEOUT = auto()
 
 
 @dataclass
@@ -21,7 +22,7 @@ class TranslationResult:
     error_message: Optional[str] = None
 
 
-logger = logging.getLogger("client")
+logger = logging.getLogger("logger")
 
 
 class VideoTranslationClient:
@@ -80,7 +81,7 @@ class VideoTranslationClient:
                 elapsed_time = time.time() - self.start_time
                 if elapsed_time > self.max_timeout:
                     return TranslationResult(
-                        status=TranslationStatus.ERROR,
+                        status=TranslationStatus.TIMEOUT,
                         error_message="Total timeout exceeded",
                     )
 
