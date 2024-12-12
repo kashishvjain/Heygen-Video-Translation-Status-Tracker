@@ -65,17 +65,17 @@ This section provides instructions on how to get started with the Heygen Video T
 
 ## Optimizations
 
-1. [Client Optimizations](markdown_documentation/client_optimizations.md)
+1. [Client Optimizations Docs](markdown_documentation/client_optimizations.md)
 
-2. [Server Optimizations](markdown_documentation/server_optimizations.md)
+2. [Server Optimizations Docs](markdown_documentation/server_optimizations.md)
 
 ## Documentation
 
-1. [Server Documentation](markdown_documentation/server_implementation.md)
+1. [Server Docs](markdown_documentation/server_implementation.md)
 
-2. [Client Documentation](markdown_documentation/client_implementation.md)
+2. [Client Docs](markdown_documentation/client_implementation.md)
 
-3. [Integration Test Documentation](markdown_documentation/integration_test_implementation.md)
+3. [Integration Test Docs](markdown_documentation/integration_test_implementation.md)
 
 ## Features
 
