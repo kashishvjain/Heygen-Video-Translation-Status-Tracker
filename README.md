@@ -1,7 +1,7 @@
 ![Github Actions](https://github.com/kashishvjain/Heygen-Video-Translation-Status-Tracker/actions/workflows/pylint.yml/badge.svg)
 ![Github Actions](https://github.com/kashishvjain/Heygen-Video-Translation-Status-Tracker/actions/workflows/tests.yml/badge.svg)
 [![Documentation Status](https://readthedocs.org/projects/heygen-video-translation-status-tracker/badge/?version=latest)](https://heygen-video-translation-status-tracker.readthedocs.io/en/latest/?badge=latest)
-# Heygen Video Translation Status Tracker Client Library
+# Video Translation Status Tracker Client Library
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@
 
 ## Overview
 
-The Heygen Video Translation Status Tracker Client Library is designed to interact with a video translation backend server to check the status of translation jobs. This library provides an efficient and user-friendly way to query the status of translation jobs, minimizing delays and server load. Some salient features:
+The Video Translation Status Tracker Client Library is designed to interact with a video translation backend server to check the status of translation jobs. This library provides an efficient and user-friendly way to query the status of translation jobs, minimizing delays and server load. Some salient features:
 
 -   Start multiple client jobs and for the same server and query based on job id
 -   Client optimization with techniches like exponential back off and asynchronization
